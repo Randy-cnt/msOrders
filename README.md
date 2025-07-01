@@ -1,3 +1,5 @@
-# Proyecto Spring Boot. Aqui van las pautas.
-
-## Probando 1 2 3
+## Proyecto Spring Boot. 
+Aqui van las pautas:
+Cómo correr el proyecto. 
+○ Capturas o colección Postman. 
+○ Explicación de qué patrón se aplicó y dónde. 
