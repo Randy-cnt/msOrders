@@ -38,4 +38,11 @@ public class GlobalExceptionHandler {
                 "details", ex.getMessage()
         ));
     }
+
+    // Error 400 - Errores de negocio
+@ExceptionHandler(IllegalArgumentException.class)
+public ResponseEntity<?> handleIllegalArgument(IllegalArgumentException ex) {
+    return ResponseEntity.badRequest().body(Map.of("error", ex.getMessage()));
+}
+
 }
